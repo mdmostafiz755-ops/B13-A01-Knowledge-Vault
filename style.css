@@ -185,3 +185,82 @@
 .btn-icon {
     font-size: 14px;
 }
+
+#learning-section{
+    width: 100%;
+    max-width: 1600px;
+    height: 448px;
+}
+
+.learning-container{
+    padding-top: 80px;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.learning-header{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.learning-header h1{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.learning-header p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.learning-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.learning-card{
+    height: 300px;
+    width: 322px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 0 8px rgba(0,0,0,0.06);
+    padding-top: 69.5px;
+}
+
+.card-icon{
+    width: 64px;
+    height: 64px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-icon img{
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.learning-card h4{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+
+.learning-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
